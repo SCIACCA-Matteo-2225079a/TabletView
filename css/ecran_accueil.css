@@ -4,6 +4,7 @@ header {
 
 body{
     background-image: url("../images/iut_accueil.png");
+    background-size: cover;
 }
 
 #logo {

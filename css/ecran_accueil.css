@@ -1,10 +1,10 @@
-header {
+#logo {
     height: 100px;
     width: 250px;
     margin: auto;
 }
 
-h1 {
+#bienvenue {
     /*font-family: Syncopate;*/
     text-align: center;
     font-size: 90px;

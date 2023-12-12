@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salles de Machines</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    header {
+      background-color: #ffc110;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .room-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .room {
+      width: 150px;
+      height: 100px;
+      margin: 10px;
+      border: 2px solid #000;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .available {
+      border-color: #85f744;
+    }
+
+    .unavailable {
+      border-color: grey;
+    }
+
+    .room-number {
+      font-size: 24px;
+    }
+
+    footer {
+      padding: 10px;
+      text-align: center;
+    }
+
+    button {
+      padding: 5px 15px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>SALLES MACHINES</h1>
+  </header>
+  <div class="room-grid">
+    <div class="room available">
+      <div class="room-number">I002</div>
+    </div>
+    <div class="room available">
+      <div class="room-number">I004</div>
+    </div>
+    <!-- Ajoutez le reste des salles ici -->
+    <div class="room unavailable">
+      <div class="room-number">I009</div>
+    </div>
+    <div class="room unavailable">
+      <div class="room-number">I010</div>
+    </div>
+    <div class="room unavailable">
+      <div class="room-number">I102</div>
+    </div>
+    <div class="room available">
+      <div class="room-number">I104</div>
+    </div>
+    <div class="room available">
+      <div class="room-number">I106</div>
+    </div>
+    <div class="room unavailable">
+      <div class="room-number">I214</div>
+    </div>
+  </div>
+  <footer>
+    <button>RETOUR</button>
+  </footer>
+</div>
+</body>
+</html>

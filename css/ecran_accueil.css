@@ -1,11 +1,12 @@
 header {
     height: 100px;
     width: 250px;
-
+    margin: auto;
 }
 
 h1 {
     /*font-family: Syncopate;*/
     text-align: center;
-    font-size:90px;
+    font-size: 90px;
 }
+

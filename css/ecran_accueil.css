@@ -1,9 +1,11 @@
-logo_iut {
-    height: 50px;
-    width:10px;
+header {
+    height: 100px;
+    width: 250px;
+
 }
 
-bienvenue {
-    font-family: Syncopate;
+h1 {
+    /*font-family: Syncopate;*/
     text-align: center;
+    font-size:90px;
 }

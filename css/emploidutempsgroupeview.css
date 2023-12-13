@@ -10,7 +10,7 @@
 }
 
 header{
-    margin-top: 0px;
+    width: 100%;
 }
 
 .header-bg{
@@ -43,18 +43,25 @@ img {
     font-family: 'Titillium Web';
 }
 
+#text-matiere-long{
+    color: white;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    font-size: 25px;
+}
+
 .container-body {
-    margin-top: 0vh;
+    margin-top: 2vh;
+    padding-left: 7vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 0.9fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    justify-items: center;
+    grid-template-rows: repeat(2, 0.8fr);
+    grid-column-gap: 0vh;
+    grid-row-gap: 0vh;
     align-items: center;
 }
 
-.container-horaire {
+.container-horaire1 {
     grid-area: 1 / 1 / 2 / 2;
     background-color: #7ed7f7;
     width: 40vh;
@@ -62,7 +69,7 @@ img {
     text-align: center;
 }
 
-.container-matiere {
+.container-matiere1 {
     grid-area: 2 / 1 / 3 / 2;
     background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
     border-radius: 10px;
@@ -70,12 +77,68 @@ img {
     width: 40vh;
 }
 
+.container-horaire2 {
+    grid-area: 1 / 2 / 2 / 2;
+    background-color: #7ed7f7;
+    width: 40vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-matiere2 {
+    grid-area: 2 / 2 / 3 / 2;
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+}
+
+.container-horaire3 {
+    grid-area: 1 / 4 / 2 / 3;
+    background-color: #7ed7f7;
+    width: 40vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-matiere3 {
+    grid-area: 2 / 4 / 3 / 3;
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+}
+
+.container-horaire4 {
+    grid-area: 1 / 4 / 2 / 4;
+    background-color: #7ed7f7;
+    width: 40vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-matiere4 {
+    grid-area: 2 / 4 / 3 / 4;
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+}
+
 .container-boutonretour {
-    display: flex;
-    flex-direction: column;
     width: 15vh;
     height: 15vh;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+}
+
+.container-boutonretour {
+    display: inline-block;
 }

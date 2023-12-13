@@ -1,15 +1,15 @@
 header {
-    background-color: #007bff;
+    background: linear-gradient(to right, #ffa500 50%, #007bff 50%);
 }
 
 body{
     background-image: url("../images/iut_accueil.png");
     background-size: cover;
+    border-color: #007bff;
 }
 
 #logo {
     height: 100px;
-    width: 250px;
     display: block;
     margin: auto;
     background-color: white;
@@ -25,7 +25,8 @@ body{
 }
 
 footer {
-    color:#ffa500;
-    background-color: #ffa500;
+    color: #ffa500;
+    /*background-color: #ffa500;*/
+    background: linear-gradient(to right, #007bff 50%, #ffa500 50%);
 }
 

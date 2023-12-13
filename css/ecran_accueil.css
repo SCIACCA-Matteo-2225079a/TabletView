@@ -12,6 +12,7 @@ body{
     width: 250px;
     display: block;
     margin: auto;
+    background-color: white;
 }
 
 #bienvenue {
@@ -24,6 +25,7 @@ body{
 }
 
 footer {
+    color:#ffa500;
     background-color: #ffa500;
 }
 

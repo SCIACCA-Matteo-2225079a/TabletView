@@ -1,4 +1,8 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background: linear-gradient(to right, #ffa500 50%, #007bff 50%);
 }
 
@@ -35,6 +39,10 @@ body::after {
 }
 
 #bienvenue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /*font-family: Syncopate;*/
     text-align: center;
     font-size: 90px;
@@ -44,6 +52,10 @@ body::after {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: #007bff;
     background: linear-gradient(to right, #007bff 50%, #ffa500 50%);
 }

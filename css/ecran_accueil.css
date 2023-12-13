@@ -8,6 +8,25 @@ body{
     border-color: #007bff;
 }
 
+body::before,
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 115px;
+}
+
+body::before {
+    left: 0;
+    background: linear-gradient(to bottom, #ffa500 50%, #007bff 50%);
+}
+
+body::after {
+    right: 0;
+    background: linear-gradient(to bottom, #007bff 50%, #ffa500 50%);
+}
+
 #logo {
     height: 100px;
     display: block;
@@ -25,8 +44,7 @@ body{
 }
 
 footer {
-    color: #ffa500;
-    /*background-color: #ffa500;*/
+    color: #007bff;
     background: linear-gradient(to right, #007bff 50%, #ffa500 50%);
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+
 header {
     position: fixed;
     top: 0;
@@ -43,7 +45,7 @@ body::after {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*font-family: Syncopate;*/
+    font-family: "Titillium Web";
     text-align: center;
     font-size: 90px;
     color: white;

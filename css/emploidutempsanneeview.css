@@ -37,98 +37,6 @@ img {
     margin: auto;
 }
 
-
-#text-matiere{
-    font-weight: bold;
-    font-family: 'Titillium Web';
-}
-
-#text-matiere-long{
-    color: white;
-    font-weight: bold;
-    font-family: 'Titillium Web';
-    font-size: 25px;
-}
-
-#text-groupe1 {
-    font-weight:bolder;
-    font-family: 'Titillium Web';
-}
-
-#text-groupe2 {
-    font-weight:bold;
-    font-family: 'Titillium Web';
-}
-
-#text-groupe3 {
-    font-weight:bold;
-    font-family: 'Titillium Web';
-}
-
-#text-groupe4 {
-    font-weight:bold;
-    font-family: 'Titillium Web';
-}
-
-.container-groupe2 {
-    background-color: #7ed7f7;
-    width: 40vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.container-groupe4 {
-    background-color: #7ed7f7;
-    width: 40vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.container-horaire2 {
-    background-color: #7ed7f7;
-    width: 40vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.container-horaire3 {
-    background-color: #7ed7f7;
-    width: 40vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.container-horaire4 {
-    background-color: #7ed7f7;
-    width: 40vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.container-matiere12 {
-    grid-area: 2 / 2 / 3 / 2;
-    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
-    border-radius: 10px;
-    text-align: center;
-    width: 40vh;
-}
-
-.container-matiere3 {
-    grid-area: 2 / 4 / 3 / 3;
-    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
-    border-radius: 10px;
-    text-align: center;
-    width: 40vh;
-}
-
-.container-matiere4 {
-    grid-area: 2 / 4 / 3 / 4;
-    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
-    border-radius: 10px;
-    text-align: center;
-    width: 40vh;
-}
-
 .parent {
 display: grid;
 grid-template-columns: repeat(8, 1fr);
@@ -142,7 +50,7 @@ grid-row-gap: 0px;
     font-weight:bolder;
     font-family: 'Titillium Web';
     background-color: #7ed7f7;
-    width: 40vh;
+    width: 20vh;
     height: 50px;
     border-radius: 10px;
     text-align: center;
@@ -159,9 +67,38 @@ grid-row-gap: 0px;
     text-align: center;
 }
 
-.div3 { grid-area: 1 / 4 / 2 / 5; }
-.div4 { grid-area: 1 / 6 / 2 / 7; }
-.div5 { grid-area: 1 / 8 / 2 / 9; }
+.div3 {
+    grid-area: 1 / 4 / 2 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div4 {
+    grid-area: 1 / 6 / 2 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div5 {
+    grid-area: 1 / 8 / 2 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
 
 .div6 {
     grid-area: 2 / 2 / 3 / 3;
@@ -174,54 +111,200 @@ grid-row-gap: 0px;
     height: 19vh;
 }
 
-.div7 { grid-area: 2 / 4 / 3 / 5; }
-.div8 { grid-area: 2 / 6 / 3 / 7; }
-.div9 { grid-area: 2 / 8 / 3 / 9; }
+.div7 {
+    grid-area: 2 / 4 / 3 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div8 {
+    grid-area: 2 / 6 / 3 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div9 {
+    grid-area: 2 / 8 / 3 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
 
 .div10 {
     grid-area: 4 / 1 / 5 / 2;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
-    width: 40vh;
+    width: 20vh;
     height: 50px;
     border-radius: 10px;
     text-align: center;
 }
 
-.div11 { grid-area: 4 / 2 / 5 / 3; }
-.div12 { grid-area: 4 / 4 / 5 / 5; }
-.div13 { grid-area: 4 / 6 / 5 / 7; }
-.div14 { grid-area: 4 / 8 / 5 / 9; }
+.div11 {
+    grid-area: 4 / 2 / 5 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div12 {
+    grid-area: 4 / 4 / 5 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div13 {
+    grid-area: 4 / 6 / 5 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div14 {
+    grid-area: 4 / 8 / 5 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
 
 .div15 {
     grid-area: 6 / 1 / 7 / 2;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
-    width: 40vh;
+    width: 20vh;
     height: 50px;
     border-radius: 10px;
     text-align: center;
 }
 
-.div16 { grid-area: 6 / 2 / 7 / 3; }
-.div17 { grid-area: 6 / 4 / 7 / 5; }
-.div18 { grid-area: 6 / 6 / 7 / 7; }
-.div19 { grid-area: 6 / 8 / 7 / 9; }
+.div16 {
+    grid-area: 6 / 2 / 7 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div17 {
+    grid-area: 6 / 4 / 7 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div18 {
+    grid-area: 6 / 6 / 7 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div19 {
+    grid-area: 6 / 8 / 7 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
 
 .div20 {
     grid-area: 8 / 1 / 9 / 2;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
-    width: 40vh;
+    width: 20vh;
     height: 50px;
     border-radius: 10px;
     text-align: center;
 }
 
-.div21 { grid-area: 8 / 2 / 9 / 3; }
-.div22 { grid-area: 8 / 4 / 9 / 5; }
-.div23 { grid-area: 8 / 6 / 9 / 7; }
-.div24 { grid-area: 8 / 8 / 9 / 9; }
+.div21 {
+    grid-area: 8 / 2 / 9 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div22 {
+    grid-area: 8 / 4 / 9 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div23 {
+    grid-area: 8 / 6 / 9 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div24 {
+    grid-area: 8 / 8 / 9 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
 
 footer {
     display: flex;
@@ -234,6 +317,6 @@ footer {
 
 .container-boutonretour {
     width: 15vh;
-    height: 15vh;
+    height: 30vh;
     display: inline-block;
 }

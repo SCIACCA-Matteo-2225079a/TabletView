@@ -3,12 +3,11 @@
 .body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Arial', sans-serif;
 }
 
 #header-bg{
-    padding: 5vh;
-    background-color: #e2e2e2;
+    background-color: #dddddd;
+    padding: 10px;
 }
 
 #header {
@@ -88,7 +87,7 @@
 
 .container-boutonretour {
     position: absolute;
-    bottom: 300px;
+    bottom: 200px;
     right: 0;
     margin: 10px;
 }

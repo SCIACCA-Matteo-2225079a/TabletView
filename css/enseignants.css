@@ -28,6 +28,8 @@
 #titre {
     font-family: "Titillium Web";
     margin-right: 725px;
+    color: white;
+    font-weight: bolder;
 }
 
 #profil {

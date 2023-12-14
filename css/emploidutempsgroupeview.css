@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(83,194,234,1) 50%);
     box-shadow: 0px 10px 4px -3px rgba(0,0,0,0.1);
 }
@@ -27,6 +27,7 @@ img {
 }
 
 #titre{
+    color: white;
     font-weight: bold;
     font-family: 'Titillium Web';
 }
@@ -37,11 +38,13 @@ img {
 }
 
 #text-matiere{
+    color: white;
     font-weight: bold;
     font-family: 'Titillium Web';
 }
 
 #text-matiere-long{
+    color: white;
     font-weight: bold;
     font-family: 'Titillium Web';
     font-size: 25px;
@@ -124,7 +127,7 @@ img {
 
 .container-boutonretour {
     width: 15vh;
-    height: 15vh;
+    height: 5vh;
 }
 
 footer {

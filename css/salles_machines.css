@@ -1,32 +1,195 @@
-.body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+* {
+    margin: 0;
 }
 
 .header {
-    background-color: #ffc110;
-    padding: 10px;
-    text-align: center;
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(240,171,2,1) 50%, rgba(240,171,2,1) 68%, rgba(252,209,103,1) 100%);
+    box-shadow: 0px 10px 4px -3px rgba(0,0,0,0.1);
 }
+
+.header-bg{
+    padding: 4vh;
+    background-color: #e2e2e2;
+}
+
+#titre-header {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+#label-salle {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+#img-iut {
+    max-width: 15%;
+}
+
+#icone-pc {
+    height: 5vh;
+}
+
+#icone-boutonretour {
+    height: 5vh;
+}
+
+#salle-disponible {
+    border-color: #6CD088;
+}
+
+#salle-disponible-icone {
+    height: 5vh;
+    position: absolute;
+    left: 12vh;
+    bottom: 11vh;
+}
+
+#salle-nondisponible {
+    opacity: 0.5;
+}
+
+#salle-nondisponible-icone {
+    height: 5vh;
+    position: absolute;
+    left: 12vh;
+    bottom: 11vh;
+}
+
+#boutonretour {
+    background: none;
+    border: none;
+}
+
+
 
 .h1 {
     margin: 0;
 }
 
-.room-grid {
+.container {
+    margin-top: 10vh;
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20vh;
+    grid-row-gap: 50px;
+    width: 120vh;
+}
+
+.I002 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding: 20px;
-    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 1 / 1 / 2 / 2;
+    border: solid;
+    width: 12vh;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I004 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 1 / 2 / 2 / 3;
+    border: solid;
+    width: 12vh;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I009 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 1 / 3 / 2 / 4;
+    width: 12vh;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I010 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 1 / 4 / 2 / 5;
+    width: 12vh;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I102 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2 / 1 / 3 / 2;
+    width: 12vh;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I104 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2 / 2 / 3 / 3;
+    width: 12vh;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I106 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2 / 3 / 3 / 4;
+    width: 12vh;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.I214 {
+    position: relative;
+    border-radius: 5px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2 / 4 / 3 / 5;
+    width: 12vh;
+    justify-content: center;
+    align-content: center;
+    border: solid;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 .room {
@@ -40,23 +203,18 @@
     justify-content: center;
 }
 
-.available {
-    border-color: #85f744;
-}
-
-.unavailable {
-    border-color: grey;
-}
-
-.room-number {
-    font-size: 24px;
-}
-
-.footer {
-    padding: 10px;
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 30vh;
     text-align: center;
 }
 
-.button {
-    padding: 5px 15px;
+.container-boutonretour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10vh;
 }

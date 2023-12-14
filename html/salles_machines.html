@@ -6,41 +6,63 @@
   <link rel="stylesheet" type="text/css" href="../css/salles_machines.css" />
   <title>Salles Machines</title>
 </head>
-<body>
-<div class="container">
-  <header>
-    <h1>SALLES MACHINES</h1>
-  </header>
-  <div class="room-grid">
-    <div class="room available">
-      <div class="room-number">I002</div>
-    </div>
-    <div class="room available">
-      <div class="room-number">I004</div>
-    </div>
-    <!-- Ajoutez le reste des salles ici -->
-    <div class="room unavailable">
-      <div class="room-number">I009</div>
-    </div>
-    <div class="room unavailable">
-      <div class="room-number">I010</div>
-    </div>
-    <div class="room unavailable">
-      <div class="room-number">I102</div>
-    </div>
-    <div class="room available">
-      <div class="room-number">I104</div>
-    </div>
-    <div class="room available">
-      <div class="room-number">I106</div>
-    </div>
-    <div class="room unavailable">
-      <div class="room-number">I214</div>
+<header>
+  <div class="header-bg">
+    <div class="header">
+      <img src="https://iut.univ-amu.fr/themes/amu/amu_iut/logo.svg" alt="logo-iut" id="img-iut">
+      <h1 id="titre-header">SALLES MACHINES</h1>
+      <h1> </h1>
     </div>
   </div>
-  <footer>
-    <button type="button">RETOUR</button>
-  </footer>
-</div>
+</header>
+<body>
+  <div class="container">
+    <div class="I002" id="salle-disponible">
+      <img src="../images/cadenas-ouvert.png" id="salle-disponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 002</h1>
+    </div>
+    <div class="I004" id="salle-disponible">
+      <img src="../images/cadenas-ouvert.png" id="salle-disponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 004</h1>
+    </div>
+    <div class="I009" id="salle-nondisponible">
+      <img src="../images/cadenas.png" id="salle-nondisponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 009</h1>
+    </div>
+    <div class="I010" id="salle-nondisponible">
+      <img src="../images/cadenas.png" id="salle-nondisponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 010</h1>
+    </div>
+    <div class="I102" id="salle-nondisponible">
+      <img src="../images/cadenas.png" id="salle-nondisponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 102</h1>
+    </div>
+    <div class="I104" id="salle-disponible">
+      <img src="../images/cadenas-ouvert.png" id="salle-disponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 104</h1>
+    </div>
+    <div class="I106" id="salle-disponible">
+      <img src="../images/cadenas-ouvert.png" id="salle-disponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 106</h1>
+    </div>
+    <div class="I214" id="salle-nondisponible">
+      <img src="../images/cadenas.png" id="salle-nondisponible-icone">
+      <img src="../images/lcd.png" id="icone-pc">
+      <h1 id="label-salle">I 214</h1>
+    </div>
+  </div>
 </body>
+<footer>
+  <div class="container-boutonretour">
+    <img src="../images/en-arriere.png" alt="image-boutonretour" id="icone-boutonretour">
+    <button type="button" id="boutonretour">RETOUR</button>
+  </div>
+</footer>
 </html>

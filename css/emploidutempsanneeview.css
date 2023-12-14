@@ -51,9 +51,10 @@ grid-row-gap: 0px;
     font-family: 'Titillium Web';
     background-color: #7ed7f7;
     width: 20vh;
-    height: 50px;
     border-radius: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div2 {
@@ -149,9 +150,10 @@ grid-row-gap: 0px;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
     width: 20vh;
-    height: 50px;
     border-radius: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div11 {
@@ -203,9 +205,11 @@ grid-row-gap: 0px;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
     width: 20vh;
-    height: 50px;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div16 {
@@ -257,9 +261,11 @@ grid-row-gap: 0px;
     background-color: #7ed7f7;
     font-family: 'Titillium Web';
     width: 20vh;
-    height: 50px;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div21 {

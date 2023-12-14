@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium Web');
 
+*{
+    margin: 0;
+}
+
 .header {
     display: flex;
     flex-direction: row;

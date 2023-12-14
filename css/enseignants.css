@@ -35,6 +35,8 @@
     text-align: center;
     color: #000;
     font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .search-bar {
@@ -56,9 +58,15 @@
     cursor: pointer;
 }
 
-footer .back-button {
-    background-color: #000;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
+.container-boutonretour {
+    position: absolute;
+    bottom: 300px;
+    right: 0;
+    margin: 10px;
+}
+
+#arriere {
+    width: 90px;
+    height: 90px;
+    align-self: end;
 }

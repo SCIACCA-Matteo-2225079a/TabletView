@@ -79,6 +79,11 @@
     cursor: pointer;
 }
 
+#loupe {
+    height: 20px;
+    width: 20px;
+}
+
 .container-boutonretour {
     position: absolute;
     bottom: 300px;

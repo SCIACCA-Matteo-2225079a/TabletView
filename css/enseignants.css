@@ -28,6 +28,8 @@
 #titre {
     font-family: "Titillium Web";
     margin-right: 725px;
+    color: white;
+    font-weight: bolder;
 }
 
 #profil {
@@ -77,6 +79,11 @@
     background-color: #ffa500;
     padding: 30px 30px;
     cursor: pointer;
+}
+
+#loupe {
+    height: 20px;
+    width: 20px;
 }
 
 .container-boutonretour {

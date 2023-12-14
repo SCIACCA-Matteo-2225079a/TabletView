@@ -1,38 +1,85 @@
-.body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+* {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
-.container {
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
-.button {
-    background-color: #ffc107;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
+
 .header {
-    background-color: #007bff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(83,194,234,1) 50%);
+    box-shadow: 0px 10px 4px -3px rgba(0,0,0,0.1);
+}
+
+.header-bg{
+    padding: 4vh;
+    background-color: #e2e2e2;
+}
+
+img {
+    max-width: 15%;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+button {
+    white-space: normal;
+    font-size: 5vh;
+    font-weight: bold;
     color: white;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+    transition-duration: 0.4s;
+}
+
+#titre-header {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.container-body {
+    margin: auto;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+    overflow: auto;
+    height: 60vh;
+    width: 150vh;
+}
+
+.boutons-etudiants {
+    background-color: #7ED7F8;
+    border: none;
+    text-align: center;
+    width: 40vh;
+    height: 20vh;
+    border-radius:8px;
+    box-shadow:rgb(197, 197, 197) 5px 5px 5px;
+}
+
+.boutons-etudiants:hover {
+    background-color: #75C7E6;
+}
+
+.boutons-autres {
+    background-color: #F0AB02;
+    border: none;
+    text-align: center;
+    width: 40vh;
+    height: 20vh;
+    border-radius:8px;
+    box-shadow:rgb(197, 197, 197) 5px 5px 5px;
+}
+
+.boutons-autres:hover {
+    background-color: #D69902;
 }

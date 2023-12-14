@@ -50,7 +50,12 @@ img {
     font-size: 25px;
 }
 
-#text-groupe {
+#text-groupe1 {
+    font-weight:bold;
+    font-family: 'Titillium Web';
+}
+
+#text-groupe2 {
     font-weight:bold;
     font-family: 'Titillium Web';
 }
@@ -82,7 +87,7 @@ img {
     text-align: center;
 }
 
-.container-matiere1 {
+.container-matiere11 {
     grid-area: 2 / 2 / 3 / 2;
     background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
     border-radius: 10px;
@@ -92,7 +97,7 @@ img {
 }
 
 .container-groupe2 {
-    grid-area: 2 / 1 / 2 / 2;
+    grid-area: 3 / 3 / 3 / 3;
     background-color: #7ed7f7;
     width: 40vh;
     border-radius: 10px;
@@ -107,7 +112,7 @@ img {
     text-align: center;
 }
 
-.container-matiere2 {
+.container-matiere12 {
     grid-area: 2 / 2 / 3 / 2;
     background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
     border-radius: 10px;

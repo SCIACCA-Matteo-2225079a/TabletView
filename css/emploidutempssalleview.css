@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+img {
+    height: 90px;
+}
+
+#titre{
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    display: block;
+    margin: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 2 / 1 / 3 / 2;
+    font-weight:bolder;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 20vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div3 {
+    grid-area: 1 / 4 / 2 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div4 {
+    grid-area: 1 / 6 / 2 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div5 {
+    grid-area: 1 / 8 / 2 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div6 {
+    grid-area: 2 / 2 / 3 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div7 {
+    grid-area: 2 / 4 / 3 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div8 {
+    grid-area: 2 / 6 / 3 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div9 {
+    grid-area: 2 / 8 / 3 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div10 {
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: #7ed7f7;
+    font-family: 'Titillium Web';
+    width: 20vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div11 {
+    grid-area: 4 / 2 / 5 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div12 {
+    grid-area: 4 / 4 / 5 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div13 {
+    grid-area: 4 / 6 / 5 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div14 {
+    grid-area: 4 / 8 / 5 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div15 {
+    grid-area: 6 / 1 / 7 / 2;
+    background-color: #7ed7f7;
+    font-family: 'Titillium Web';
+    width: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div16 {
+    grid-area: 6 / 2 / 7 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div17 {
+    grid-area: 6 / 4 / 7 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div18 {
+    grid-area: 6 / 6 / 7 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div19 {
+    grid-area: 6 / 8 / 7 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div20 {
+    grid-area: 8 / 1 / 9 / 2;
+    background-color: #7ed7f7;
+    font-family: 'Titillium Web';
+    width: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div21 {
+    grid-area: 8 / 2 / 9 / 3;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(238,212,7,1) 43%, rgba(255,229,0,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div22 {
+    grid-area: 8 / 4 / 9 / 5;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,110,241,1) 43%, rgba(255,110,241,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div23 {
+    grid-area: 8 / 6 / 9 / 7;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(0,163,255,1) 43%, rgba(0,163,255,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div24 {
+    grid-area: 8 / 8 / 9 / 9;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div25 {
+    grid-area: 1 / 10 / 2 / 11;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div26 {
+    grid-area: 2 / 10 / 3 / 11;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div27 {
+    grid-area: 4 / 10 / 5 / 11;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div28 {
+    grid-area: 6 / 10 / 7 / 11;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.div29 {
+    grid-area: 8 / 10 / 9 / 11;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background: linear-gradient(360deg, rgba(88,69,69,1) 0%, rgba(255,103,37,1) 43%, rgba(255,103,37,1) 48%);
+    border-radius: 10px;
+    text-align: center;
+    width: 40vh;
+    height: 19vh;
+}
+
+.container-boutonretour {
+    width: 15vh;
+    height: 30vh;
+    display: inline-block;
+}

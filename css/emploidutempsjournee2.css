@@ -6,6 +6,8 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    background-color: #D9D9D9;
+    border-color: #5FBDF2;
 }
 
 .parent2 {
@@ -14,6 +16,8 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    background-color: #D9D9D9;
+    border-color: #5FBDF2;
 }
 
 .parent3 {
@@ -22,6 +26,8 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    background-color: #D9D9D9;
+    border-color: #5FBDF2;
 }
 
 #annee {
@@ -45,7 +51,7 @@
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 10px 5px 5px;
+    box-shadow: 10px 5px 5px black;
 }
 
 #horaire {

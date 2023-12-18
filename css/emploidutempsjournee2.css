@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.parent3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#annee {
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #FFBB55;
+    color:#B3823C;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+}
+
+#groupe {
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    background-color: #7ed7f7;
+    color: white;
+    width: 40vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+}

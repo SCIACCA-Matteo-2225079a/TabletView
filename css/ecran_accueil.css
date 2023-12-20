@@ -10,8 +10,10 @@ header {
 
 body{
     background-image: url("../images/iut_accueil.png");
-    background-size: cover;
+    background-size: 1690px 750px;
     border-color: #007bff;
+    background-repeat: no-repeat;
+    background-position: 50% -13%;
 }
 
 body::before,

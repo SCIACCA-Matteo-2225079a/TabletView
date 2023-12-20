@@ -9,7 +9,7 @@ header {
 }
 
 body{
-    background-image: url("../images/iut_accueil.png");
+    background-image: url("../images/iut_accueil_flou.png");
     background-size: 1690px 750px;
     border-color: #007bff;
     background-repeat: no-repeat;
